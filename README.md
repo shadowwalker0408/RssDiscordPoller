@@ -16,6 +16,8 @@ FEED_O2=otherRssFeedLink, otherDiscordWebhook, MyOtherTitle
 ```
 
 ## Building / Running
+### Docker
+You may use the attatched docker file and the command bellow to run this in a docker environment
 ```
 docker build -t rss-discord-poller .
 
@@ -24,6 +26,8 @@ docker run -d \
   --name rss-discord-poller \
   rss-discord-poller
 ```
+### Other
+Run the script.js file within the src folder.
 
 ## Licensing
 Please view the attatched license file.
