@@ -4,7 +4,7 @@ Polls RSS feed every 5 minutes and if it finds a more recent announcement then i
 This project requires a `.env` file to be placed in the root directory.
 
 ## .env file setup:
-```bash
+```
 pollTime=<time in minutes to poll for new feeds>
 FEED_0x=<rssFeedLink, discordwebhook, title>
 ```
