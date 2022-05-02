@@ -1,0 +1,29 @@
+{
+    "name": "rss-discord-poller",
+    "version": "1.0.0",
+    "description": "Polls RSS feed every 5 minutes and if it finds a more recent announcement then it will post that in the selected discord channel using a webhook.\r ## Adding new results/feeds\r ...\r ## Licensing\r Please view the attatched license file.",
+    "main": "src/script.js",
+    "dependencies": {
+        "discord-webhook-node": "^1.1.8",
+        "dotenv": "^16.0.0",
+        "entities": "^2.2.0",
+        "rss-parser": "^3.12.0",
+        "sax": "^1.2.4",
+        "xml2js": "^0.4.23",
+        "xmlbuilder": "^11.0.1"
+    },
+    "scripts": {
+        "start": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ProjectReborn-Arma/RssDiscordPoller.git"
+    },
+    "keywords": [],
+    "author": "Noah Rachel",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ProjectReborn-Arma/RssDiscordPoller/issues"
+    },
+    "homepage": "https://github.com/ProjectReborn-Arma/RssDiscordPoller#readme"
+}
