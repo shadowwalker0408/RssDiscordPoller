@@ -72,7 +72,7 @@ async function sendDiscordMessage(latestPost) {
         .setURL(latestPostLink)
         .setColor('#00f41c')
         .setDescription(latestPostContent)
-        .setFooter('Project Reborn Post Summary | Click title to read more!', 'https://www.projectreborn.co.uk/public_files/logos/PR%20Logo.png')
+        .setFooter('Created by Shadowwalker0408', 'https://github.com/shadowwalker0408/RssDiscordPoller')
         .setTimestamp();
     hook.send(embed);
 };
